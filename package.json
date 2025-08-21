@@ -1,0 +1,28 @@
+{
+  "name": "api-restful-nodejs",
+  "version": "1.0.0",
+  "description": "API foi criada baseada no framework Express. Utilizei o MongoDB Atlas como banco, usando a ODM Mongoose.  API foi testada com o software Thunder Client. ## Objetivo  Criação da API nos padrões RESTful, que terá um CRUD Os endpoints serão criados com os verbos HTTP que correspondem a ação do mesmo. express mongoose nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoriafreitasdev/API-RESTful-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoriafreitasdev/API-RESTful-NodeJS/issues"
+  },
+  "homepage": "https://github.com/vitoriafreitasdev/API-RESTful-NodeJS#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
