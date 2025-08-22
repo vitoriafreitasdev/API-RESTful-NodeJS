@@ -15,9 +15,9 @@ const routes = require('./routes/router.js')
 
 app.use('/person', routes)
 
-//  rota inicial / endpoint
+// rota inicial / endpoint
 app.get('/', (req, res) => {
-    res.json({message: 'Oi Express'})
+    res.json({message: 'Rota inicial'})
 })
 
 
