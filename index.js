@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 
 // Banco de dados e inicialização 
 
-const DB_USER = process.env.DB_USERprocess.env.DB_USER
+const DB_USER = process.env.DB_USER
 const DB_PASSWORD = encodeURIComponent(process.env.DB_PASSWORD)
 
 mongoose.connect(`mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.5q4xtm7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
